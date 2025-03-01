@@ -1,0 +1,6 @@
+@Cryptography.Api_HostAddress = http://localhost:5256
+
+GET {{Cryptography.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,15 @@
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/CryptographyWebApi.Infrastructure.deps.json
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/CryptographyWebApi.Infrastructure.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/CryptographyWebApi.Infrastructure.pdb
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/CryptographyWebApi.Application.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/CryptographyWebApi.Application.pdb
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.csproj.AssemblyReference.cache
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.AssemblyInfoInputs.cache
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.AssemblyInfo.cs
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/Cryptogr.6E13BC04.Up2Date
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/refint/CryptographyWebApi.Infrastructure.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.pdb
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/ref/CryptographyWebApi.Infrastructure.dll

@@ -1,0 +1,12 @@
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/bin/Debug/net8.0/CryptographyWebApi.Application.deps.json
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/bin/Debug/net8.0/CryptographyWebApi.Application.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/bin/Debug/net8.0/CryptographyWebApi.Application.pdb
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/obj/Debug/net8.0/CryptographyWebApi.Application.csproj.AssemblyReference.cache
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/obj/Debug/net8.0/CryptographyWebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/obj/Debug/net8.0/CryptographyWebApi.Application.AssemblyInfoInputs.cache
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/obj/Debug/net8.0/CryptographyWebApi.Application.AssemblyInfo.cs
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/obj/Debug/net8.0/CryptographyWebApi.Application.csproj.CoreCompileInputs.cache
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/obj/Debug/net8.0/CryptographyWebApi.Application.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/obj/Debug/net8.0/refint/CryptographyWebApi.Application.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/obj/Debug/net8.0/CryptographyWebApi.Application.pdb
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Application/obj/Debug/net8.0/ref/CryptographyWebApi.Application.dll
