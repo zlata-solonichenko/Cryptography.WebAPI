@@ -13,12 +13,17 @@
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.2" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="8.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="8.0.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\CryptographyWebApi.Application\CryptographyWebApi.Application.csproj" />
       <ProjectReference Include="..\CryptographyWebApi.Infrastructure\CryptographyWebApi.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="обновленияКриптография\" />
     </ItemGroup>
 
 </Project>

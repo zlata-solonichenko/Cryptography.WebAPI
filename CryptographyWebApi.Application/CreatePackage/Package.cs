@@ -4,7 +4,7 @@ using CryptographyWebApi.Application.CreateUser;
 namespace CryptographyWebApi.Application.CreatePackage;
 
 /// <summary>
-/// Сущность для обмена данными
+/// Сущность пакета
 /// </summary>
 public class Package
 {
@@ -12,16 +12,6 @@ public class Package
     /// Айди пакета
     /// </summary>
     public Guid Id { get; private set; }
-    
-    /// <summary>
-    /// Навигационное свойство
-    /// </summary>
-    public User Sender { get; private set; }
-    
-    /// <summary>
-    /// Айди навигационног свойства
-    /// </summary>
-    public Guid SenderID { get; private set; }
     
     /// <summary>
     /// Дата отправки
@@ -34,35 +24,55 @@ public class Package
     public DateTime? CompletionDate { get; private set; }
     
     /// <summary>
+    /// Отправитель
+    /// </summary>
+    public User Sender { get; private set; }
+    
+    /// <summary>
+    /// Получатель
+    /// </summary>
+    public User Recipient { get; set; }
+    
+    /// <summary>
     /// Путь к файлу на жестком диске
     /// </summary>
     public string FilePath { get; private set; }
 
-    public Package(Guid id, User sender, Guid senderId, DateTime sentDate, DateTime? completionDate, string filePath)
+    public Package() { }
+    
+    public Package(Guid id, User sender, User recipient, DateTime sentDate, DateTime? completionDate, string filePath)
     {
         Id = id;
         Sender = sender;
-        SenderID = senderId;
+        Recipient = recipient;
+        SentDate = sentDate;
+        CompletionDate = completionDate;
+        FilePath = filePath;
+    }
+    public Package(Guid id, DateTime sentDate, DateTime? completionDate, string filePath)
+    {
+        Id = id;
         SentDate = sentDate;
         CompletionDate = completionDate;
         FilePath = filePath;
     }
     
-    public Package(Guid id, Guid senderId, DateTime sentDate, DateTime? completionDate, string filePath)
+    public Package(User sender, User recipient, DateTime sentDate, DateTime? completionDate, string filePath)
     {
-        Id = id;
-        SenderID = senderId;
+        Id = Guid.NewGuid();
+        Sender = sender;
+        Recipient = recipient;
         SentDate = sentDate;
         CompletionDate = completionDate;
         FilePath = filePath;
     }
-    
-    public Package(User sender, Guid senderId, DateTime sentDate, DateTime? completionDate, string filePath)
+
+    public Package(User sender, User recipient, DateTime sentDate, string filePath)
     {
+        Id = Guid.NewGuid();
         Sender = sender;
-        SenderID = senderId;
         SentDate = sentDate;
-        CompletionDate = completionDate;
+        Recipient = recipient;
         FilePath = filePath;
     }
 }

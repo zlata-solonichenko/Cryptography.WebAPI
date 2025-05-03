@@ -6,7 +6,7 @@ namespace CryptographyWebApi.Controllers;
 
 [ApiController]
 [Route("api/users")]
-public class Users : ControllerBase
+public class UsersController : ControllerBase
 {
     [HttpPost("new")]
     public async Task<IActionResult> CreateUserAsync(

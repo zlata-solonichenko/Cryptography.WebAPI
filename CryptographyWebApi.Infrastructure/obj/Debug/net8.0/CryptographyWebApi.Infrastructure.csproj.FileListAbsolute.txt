@@ -13,3 +13,4 @@
 /Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/refint/CryptographyWebApi.Infrastructure.dll
 /Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.pdb
 /Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/ref/CryptographyWebApi.Infrastructure.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.sourcelink.json

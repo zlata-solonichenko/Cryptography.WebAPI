@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptographyWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b4c3daab97c3b45097e72132d7f939a321de5b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptographyWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptographyWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,13 @@
 using CryptographyWebApi.Application;
+using CryptographyWebApi.Application.CreatePackage;
 using CryptographyWebApi.Infrastructure;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+
 
 namespace CryptographyWebApi;
 
@@ -17,19 +25,26 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddControllers();
-
+        
         var app = builder.Build();
 
+        using (var scope = app.Services.CreateScope())
+        {
+            var context = scope.ServiceProvider.GetRequiredService<CryptographyContext>();
+            //context.Database.EnsureCreated();
+            context.Database.Migrate();
+        }
+        app.UseRouting();
+
+        app.MapControllers();
+        
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
             app.UseSwaggerUI();
         }
-        app.UseRouting();
-
-        app.MapControllers();
-
+        
         app.Run();
     }
 }

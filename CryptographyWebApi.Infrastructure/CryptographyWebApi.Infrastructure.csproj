@@ -15,4 +15,8 @@
       <ProjectReference Include="..\CryptographyWebApi.Application\CryptographyWebApi.Application.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Migrations\" />
+    </ItemGroup>
+
 </Project>

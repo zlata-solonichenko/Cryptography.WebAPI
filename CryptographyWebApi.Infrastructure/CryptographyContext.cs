@@ -17,10 +17,18 @@ public class CryptographyContext : DbContext
     {
         // Конфигурации моделей
         modelBuilder.Entity<UserDb>().HasKey(u => u.Id);
+        
         modelBuilder.Entity<UserDb>()
-            .HasMany<PackageDb>(u => u.Packages)
-            .WithOne(p => p.UserDb);
+            .HasMany<PackageDb>(u => u.OutboundPackages)
+            .WithOne(p => p.Sender)
+            .HasForeignKey(p => p.SenderId);
+        
         modelBuilder.Entity<PackageDb>().HasKey(p => p.Id);
+        
+        modelBuilder.Entity<UserDb>()
+            .HasMany<PackageDb>(u => u.InboundPackages)
+            .WithOne(p => p.Recipient)
+            .HasForeignKey(p => p.RecipientId);
     }
 }
 

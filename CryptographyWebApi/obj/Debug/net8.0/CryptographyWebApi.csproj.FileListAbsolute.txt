@@ -137,3 +137,5 @@
 /Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi/obj/Debug/net8.0/CryptographyWebApi.pdb
 /Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi/obj/Debug/net8.0/CryptographyWebApi.genruntimeconfig.cache
 /Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi/obj/Debug/net8.0/ref/CryptographyWebApi.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi/obj/Debug/net8.0/CryptographyWebApi.sourcelink.json
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Annotations.dll

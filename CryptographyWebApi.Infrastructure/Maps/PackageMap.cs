@@ -15,12 +15,13 @@ public static class PackageMap
         var packageDb = new PackageDb
         {
             Id = package.Id,
-            //Sender = (CryptographyWebApi.Infrastructure.Entities.UserDb)package.Sender,
-            SenderID = package.SenderID,
+            //Sender = package.Sender.ToUserDb(),
+            //Recipient = package.Recipient.ToUserDb(),
             SentDate = package.SentDate,
             CompletionDate = package.CompletionDate,
             FilePath = package.FilePath,
         };
+        
         return packageDb;
     }
 
@@ -31,8 +32,12 @@ public static class PackageMap
             throw new ArgumentException("Пакет не может быть null");
         } 
         
-        //, packageDb.Sender
-        var package = new Package(packageDb.Id, packageDb.SenderID, packageDb.SentDate, packageDb.CompletionDate, packageDb.FilePath);
+        var package = new Package(
+            packageDb.Id, packageDb.Sender.ToUser(), 
+            packageDb.Recipient.ToUser(), packageDb.SentDate, 
+            packageDb.CompletionDate, packageDb.FilePath
+            );
+        
         return package;
     }
 }

@@ -10,5 +10,7 @@ public class UserDb
     
     public string Thumbprint { get; set; }
     
-    public List<PackageDb> Packages { get; private set; } = new List<PackageDb>();
+    public ICollection<PackageDb> OutboundPackages { get; set; } = new List<PackageDb>();
+    
+    public ICollection<PackageDb> InboundPackages { get; set; } = new List<PackageDb>();
 }

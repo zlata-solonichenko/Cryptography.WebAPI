@@ -11,6 +11,7 @@ public class User
     public string Certificate { get; private set; }
     public string Thumbprint { get; private set; }
     
+    public User() { } 
     public User(string email, string certificate)
     {
         Id = Guid.NewGuid();

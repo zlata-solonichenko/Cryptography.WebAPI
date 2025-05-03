@@ -17,6 +17,18 @@ public class UsersRepository : IUsersRepository
     {
         return _context.Users.AnyAsync(u => u.Email == email.ToLower(), cancellationToken);
     }
+
+    public async Task<User> FindUserByIdAsync(Guid id, CancellationToken cancellationToken)
+    {
+        var userDb = await _context.Users.FirstOrDefaultAsync(u => u.Id == id, cancellationToken);
+
+        if (userDb == null)
+        {
+            return null;
+        }
+        var user = userDb.ToUser();
+        return user;
+    }
     public Task CreateUserAsync(User user, CancellationToken cancellationToken)
     {
         var userDb = user.ToUserDb();
