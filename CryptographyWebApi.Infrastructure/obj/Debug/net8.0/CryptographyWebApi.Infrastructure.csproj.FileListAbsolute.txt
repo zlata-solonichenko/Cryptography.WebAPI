@@ -14,3 +14,12 @@
 /Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.pdb
 /Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/ref/CryptographyWebApi.Infrastructure.dll
 /Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/obj/Debug/net8.0/CryptographyWebApi.Infrastructure.sourcelink.json
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/x86/KernelTraceControl.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/x86/KernelTraceControl.Win61.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/x86/msdia140.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/amd64/KernelTraceControl.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/amd64/msdia140.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/arm64/KernelTraceControl.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/arm64/msdia140.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/TraceReloggerLib.dll
+/Users/itachi/RiderProjects/CryptographyWebApi/CryptographyWebApi.Infrastructure/bin/Debug/net8.0/Dia2Lib.dll

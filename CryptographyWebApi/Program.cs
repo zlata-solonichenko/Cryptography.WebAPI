@@ -1,3 +1,4 @@
+using BenchmarkDotNet.Running;
 using CryptographyWebApi.Application;
 using CryptographyWebApi.Application.CreatePackage;
 using CryptographyWebApi.Infrastructure;
@@ -27,7 +28,7 @@ public class Program
         builder.Services.AddControllers();
         
         var app = builder.Build();
-
+        
         using (var scope = app.Services.CreateScope())
         {
             var context = scope.ServiceProvider.GetRequiredService<CryptographyContext>();

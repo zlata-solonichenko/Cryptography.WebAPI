@@ -3,6 +3,7 @@ using CryptographyWebApi.Application.Common;
 using CryptographyWebApi.Application.CreateUser;
 using CryptographyWebApi.Application.Packages.Common;
 using CryptographyWebApi.Application.Users.Common;
+using BenchmarkDotNet.Attributes;
 
 namespace CryptographyWebApi.Application.CreatePackage;
 
